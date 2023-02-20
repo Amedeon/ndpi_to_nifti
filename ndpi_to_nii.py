@@ -7,7 +7,7 @@ import numpy as np
 # Path to the directory containing the NDPI images
 ndpi_dir = '/where_ndpi'
 
-ndpisplit_path='/network/lustre/iss02/lau-karachi/data_raw/Human/HYPOTHALAMUS-SANO/Homme/H1h/'
+ndpisplit_path='path_to_ndpisplit'
 # Loop through each NDPI image in the directory
 for filename in os.listdir(ndpi_dir):
     if filename.endswith('.ndpi'):
